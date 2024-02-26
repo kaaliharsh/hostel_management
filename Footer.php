@@ -6,7 +6,7 @@ if(isset($send))
 mysqli_query($con,"insert into feedback values('','$n','$e','$mob','$msg')");	
 $msg= "<h4 style='color:green;'>feedback sent successfully</h4>";
 }
-?>
+?> 
 <!-- Footer1 Start Here-->
 
 <footer style="background-color: #393939;">
