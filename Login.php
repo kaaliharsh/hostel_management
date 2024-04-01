@@ -3,7 +3,7 @@ session_start();
 error_reporting(1); 
 if($_SESSION['create_account_logged_in']!="")
 {
-header('location:Booking Form.php');
+header('location:Booking Form.php'); 
 } 
 error_reporting(1);
 require('connection.php');
